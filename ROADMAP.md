@@ -1,167 +1,119 @@
-# ROADMAP: Become a Well-Rounded Python Developer
+# 🚀 Python Developer Roadmap: 12-Week Journey
 
-_A practical 12-week learning roadmap + detailed study plan, with curated resources, hands-on checkpoints, and project-based video tutorials._
-
----
-
-## Overview
-
-This roadmap covers:
-
-- **Core Python** and software engineering fundamentals  
-- **Web APIs** with **FastAPI**  
-- **Databases & ORM** with **SQLAlchemy** / **Postgres**  
-- **LLM engineering** using **LangChain**  
-- **Machine Learning / Deep Learning** with **TensorFlow**  
-- **Computer Vision** with **OpenCV**  
-- **Engineering skills**: testing, CI/CD, Docker, Git, and deployment
-
-Each section contains purpose, curated resources (docs/repos/lectures/videos), hands-on exercises, and project suggestions.
+*A comprehensive learning path to become a well-rounded Python developer*
 
 ---
 
-## Table of Contents
+## 📋 Weekly Study Plan
 
-1. [Foundations — Core Python & Computer Science](#foundations)  
-2. [Version Control & Best Practices](#version-control)  
-3. [Web APIs — FastAPI](#fastapi)  
-4. [Databases & ORM — SQLAlchemy / Postgres](#sqlalchemy)  
-5. [Large Language Model Engineering — LangChain](#langchain)  
-6. [Machine Learning & Deep Learning — TensorFlow](#tensorflow)  
-7. [Computer Vision — OpenCV](#opencv)  
-8. [Testing, Tooling & DevOps](#testing-devops)  
-9. [Capstone Projects & Portfolio](#capstone)  
-10. [12-Week Study Schedule & Weekly Checkpoints](#12-week-schedule)  
-11. [How to Read Repos & Study Advice](#how-to-read)
+### Week 1 — Python Fundamentals & Environment
+**Focus**: Syntax, data types, control flow, functions, modules  
+**Project**: CSV summary CLI tool  
+**Video**: [Python for Beginners - Full Course](https://www.youtube.com/watch?v=_uQrJ0TkZlc)  
+**Checkpoint**: `csv-summary` script with tests
 
----
+### Week 2 — Data Structures & OOP
+**Focus**: Stacks, queues, binary trees, pytest  
+**Project**: Custom data structures implementation  
+**Video**: [Python OOP Tutorial](https://www.youtube.com/watch?v=JeznW_7DlB0)  
+**Checkpoint**: Data structures repo with test suite
 
-## 1) Foundations — Core Python & Computer Science <a name="foundations"></a>
+### Week 3 — FastAPI Basics
+**Focus**: REST APIs, Pydantic models, OpenAPI docs  
+**Project**: Notes CRUD API  
+**Video**: [FastAPI Course for Beginners](https://www.youtube.com/watch?v=GN6ICac3OXY)  
+**Checkpoint**: Notes API with documentation
 
-**Purpose:** Build fluency in Python syntax, idioms, data structures, algorithms, and problem solving.
+### Week 4 — Databases & SQLAlchemy
+**Focus**: ORM, migrations, PostgreSQL  
+**Project**: Database integration for Notes API  
+**Video**: [FastAPI + SQLAlchemy + PostgreSQL](https://www.youtube.com/watch?v=0sOvCWFmrtA)  
+**Checkpoint**: Notes API with persistent storage
 
-**Resources**
-- Python tutorial (official) — https://docs.python.org/3/tutorial/  
-- Automate the Boring Stuff — https://automatetheboringstuff.com/  
-- MIT 6.0001 — https://ocw.mit.edu/courses/6-0001/  
-- Real Python — https://github.com/realpython  
-- **Video Tutorial** — [Python for Everybody - YouTube](https://www.youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S)
+### Week 5 — Authentication & Deployment
+**Focus**: JWT auth, Docker, background tasks  
+**Project**: Secure, containerized API  
+**Video**: [FastAPI Authentication](https://www.youtube.com/watch?v=H7tRZ1M9Ne4)  
+**Checkpoint**: Deployed API with user auth
 
-**Mini projects:** CLI tools like file organizer, CSV merger, log analyzer.
+### Week 6 — LangChain & LLMs
+**Focus**: RAG, document loaders, vector stores  
+**Project**: Knowledge base assistant  
+**Video**: [LangChain Crash Course](https://www.youtube.com/watch?v=aywZrzNaKjs)  
+**Checkpoint**: RAG prototype with API
 
----
+### Week 7 — Advanced LangChain
+**Focus**: Agents, tools, memory  
+**Project**: Enhanced AI assistant  
+**Video**: [Build RAG System with LangChain](https://www.youtube.com/watch?v=T-D1OfcDW1M)  
+**Checkpoint**: Agent with external tool integration
 
-## 2) Version Control & Best Practices <a name="version-control"></a>
+### Week 8 — TensorFlow & ML
+**Focus**: Keras, model training, evaluation  
+**Project**: Image classifier  
+**Video**: [TensorFlow 2.0 Complete Course](https://www.youtube.com/watch?v=tPYj3fFJGjk)  
+**Checkpoint**: Trained model with notebook
 
-**Purpose:** Master Git workflows, branching, pull requests, and CI/CD basics.
+### Week 9 — Model Serving
+**Focus**: FastAPI integration, Docker  
+**Project**: Model prediction service  
+**Video**: [Deploy ML Models with FastAPI](https://www.youtube.com/watch?v=C82lT9cWQiA)  
+**Checkpoint**: Model serving API
 
-**Resources**
-- Real Python Git tutorials — https://realpython.com/learn/git/  
-- **Video Tutorial** — [Git & GitHub Crash Course - Traversy Media](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+### Week 10 — Computer Vision
+**Focus**: OpenCV, image processing, detection  
+**Project**: Real-time vision pipeline  
+**Video**: [OpenCV Full Tutorial](https://www.youtube.com/watch?v=oXlwWbU8l2o)  
+**Checkpoint**: Vision demo with webcam
 
----
-
-## 3) Web APIs — FastAPI <a name="fastapi"></a>
-
-**Purpose:** Build typed REST APIs and microservices.
-
-**Resources**
-- FastAPI tutorial — https://fastapi.tiangolo.com/tutorial/  
-- full-stack-fastapi-template — https://github.com/tiangolo/full-stack-fastapi-template  
-- **Video Tutorial** — [FastAPI Crash Course - YouTube](https://www.youtube.com/watch?v=0sOvCWFmrtA)
-
----
-
-## 4) Databases & ORM — SQLAlchemy / Postgres <a name="sqlalchemy"></a>
-
-**Purpose:** Model relational data and integrate Postgres with Python.
-
-**Resources**
-- SQLAlchemy tutorial — https://docs.sqlalchemy.org/tutorial/  
-- **Video Tutorial** — [SQLAlchemy ORM Crash Course - YouTube](https://www.youtube.com/watch?v=woKYyhLCcnU)
-
----
-
-## 5) Large Language Model Engineering — LangChain <a name="langchain"></a>
-
-**Purpose:** Build RAG pipelines and LLM-based apps.
-
-**Resources**
-- LangChain GitHub — https://github.com/langchain-ai/langchain  
-- LangChain docs — https://docs.langchain.com/  
-- **Video Tutorial** — [LangChain for Beginners - YouTube](https://www.youtube.com/watch?v=uM8X4tTt8cs)
+### Week 11 — Capstone Project
+**Focus**: Full integration, deployment, portfolio  
+**Project**: Choose from full-stack app, LLM assistant, or vision product  
+**Video**: [Full Stack FastAPI and React](https://www.youtube.com/watch?v=OzUzrs8uJl8)  
+**Checkpoint**: Production-ready portfolio project
 
 ---
 
-## 6) Machine Learning & Deep Learning — TensorFlow <a name="tensorflow"></a>
+## 🛠️ Technology Stack
 
-**Purpose:** Train, evaluate, and serve ML/DL models.
-
-**Resources**
-- TensorFlow tutorials — https://www.tensorflow.org/tutorials  
-- TensorFlow Models — https://github.com/tensorflow/models  
-- **Video Tutorial** — [TensorFlow 2.0 Complete Course - YouTube](https://www.youtube.com/watch?v=tPYj3fFJGjk)
-
----
-
-## 7) Computer Vision — OpenCV <a name="opencv"></a>
-
-**Purpose:** Image/video processing and building vision pipelines.
-
-**Resources**
-- OpenCV Python tutorials — https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html  
-- CS231n — http://cs231n.stanford.edu/  
-- **Video Tutorial** — [OpenCV Python Tutorial - YouTube](https://www.youtube.com/watch?v=oXlwWbU8l2o)
+| Category | Technologies |
+|----------|-------------|
+| **Backend** | FastAPI, Pydantic, Uvicorn |
+| **Database** | PostgreSQL, SQLAlchemy, Alembic |
+| **AI/ML** | TensorFlow, LangChain, OpenCV |
+| **DevOps** | Docker, GitHub Actions, pytest |
+| **Tools** | Git, Python 3.11+, Jupyter |
 
 ---
 
-## 8) Testing, Tooling & DevOps <a name="testing-devops"></a>
+## 📚 Learning Resources
 
-**Purpose:** Ensure software quality, reproducible environments, CI/CD, and deployable artifacts.
+### Core Documentation
+- [Python Official Docs](https://docs.python.org/3/tutorial/)
+- [FastAPI Documentation](https://fastapi.tiangolo.com/)
+- [SQLAlchemy Tutorial](https://docs.sqlalchemy.org/tutorial/)
+- [LangChain Docs](https://docs.langchain.com/)
 
-**Resources**
-- pytest — https://pytest.org/  
-- GitHub Actions — https://docs.github.com/en/actions  
-- **Video Tutorial** — [Python Testing with pytest - YouTube](https://www.youtube.com/watch?v=etosV2IWBF0)
-
----
-
-## 9) Capstone Projects & Portfolio <a name="capstone"></a>
-
-Suggested capstones: Full-stack FastAPI app, LLM assistant, or CV/TensorFlow integration.  
-- **Video example** — [Python Full Stack Project Tutorial - YouTube](https://www.youtube.com/watch?v=7eh4d6sabA0)
+### Video Channels
+- FreeCodeCamp (Comprehensive tutorials)
+- Tech With Tim (Python-focused)
+- Amigoscode (Backend development)
+- Programming with Mosh (Fundamentals)
 
 ---
 
-## 10) 12-Week Study Schedule & Weekly Checkpoints <a name="12-week-schedule"></a>
+## 🎯 Project Portfolio
 
-_Follows the same weekly objectives, assignments, and checkpoints as the detailed document above._
+By completing this roadmap, you'll build:
 
-**Note:** Use the video links above alongside each week’s assignment to replicate hands-on tutorials.
-
----
-
-## 11) How to Read Repos & Study Advice <a name="how-to-read"></a>
-
-- Start with `README.md` → `docs/` → `examples/`. Run locally and step through code.  
-- Experiment by replacing parts (swap DB, add features).  
-- Maintain a learning journal in each repo (`NOTES.md`).
+1. **CLI Tools** - File processors, data analyzers
+2. **REST APIs** - CRUD services with auth and docs
+3. **Database Applications** - ORM models and migrations
+4. **AI Assistants** - RAG systems with LangChain
+5. **ML Services** - Trained models with prediction APIs
+6. **Computer Vision** - Real-time image processing
+7. **Full-Stack Applications** - Deployed containerized apps
 
 ---
 
-## Quick Reference Video Links
-
-| Topic | Video Tutorial |
-|-------|----------------|
-| Python | [Python for Everybody - YouTube](https://www.youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S) |
-| Git | [Git & GitHub Crash Course - Traversy Media](https://www.youtube.com/watch?v=SWYqp7iY_Tc) |
-| FastAPI | [FastAPI Crash Course - YouTube](https://www.youtube.com/watch?v=0sOvCWFmrtA) |
-| SQLAlchemy | [SQLAlchemy ORM Crash Course - YouTube](https://www.youtube.com/watch?v=woKYyhLCcnU) |
-| LangChain | [LangChain for Beginners - YouTube](https://www.youtube.com/watch?v=uM8X4tTt8cs) |
-| TensorFlow | [TensorFlow 2.0 Complete Course - YouTube](https://www.youtube.com/watch?v=tPYj3fFJGjk) |
-| OpenCV | [OpenCV Python Tutorial - YouTube](https://www.youtube.com/watch?v=oXlwWbU8l2o) |
-| Pytest | [Python Testing with pytest - YouTube](https://www.youtube.com/watch?v=etosV2IWBF0) |
-
----
-
-**End of ROADMAP.md with Video Tutorials**
+*Start your journey today! One week at a time, one project at a time.*

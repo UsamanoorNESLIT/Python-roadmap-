@@ -4,6 +4,10 @@
 
 ---
 
+## Python local enviroment setup
+**Pyenv**:setup pyenv locally on your machine by following the steps mentioned in the video (https://www.youtube.com/watch?v=HTx18uyyHw8)
+**Virtual enviorments**:Learn how to configure and properly setup a python virtual enviroment (https://www.youtube.com/watch?v=eDe-z2Qy9x4)
+
 ## 📋 Weekly Study Plan
 
 ### Week 1 — Python Fundamentals & Environment

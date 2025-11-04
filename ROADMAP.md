@@ -10,67 +10,52 @@
 
 ## 📋 Weekly Study Plan
 
-### Week 1 — Python Fundamentals & Environment
-**Focus**: Syntax, data types, control flow, functions, modules  
-**Project**: CSV summary CLI tool  
-**Video**: [Python for Beginners - Full Course](https://www.youtube.com/watch?v=_uQrJ0TkZlc)  
-**Checkpoint**: `csv-summary` script with tests
+### Week 1 — Python Fundamentals & Environment + Data Structures & OOP
+**Focus**: Syntax, data types, control flow, functions, modules ,Stacks, queues, binary trees, pytest   
+**Project**: CSV summary CLI tool , Custom data structures implementation  
+**Video**: [Python for Beginners - Full Course](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
+**Video**: [Python OOP Tutorial](https://www.youtube.com/watch?v=JeznW_7DlB0)    
+**Checkpoint#1**: `csv-summary` script with tests
+**Checkpoint#2**: Data structures repo with test suite
 
-### Week 2 — Data Structures & OOP
-**Focus**: Stacks, queues, binary trees, pytest  
-**Project**: Custom data structures implementation  
-**Video**: [Python OOP Tutorial](https://www.youtube.com/watch?v=JeznW_7DlB0)  
-**Checkpoint**: Data structures repo with test suite
-
-### Week 3 — FastAPI Basics
-**Focus**: REST APIs, Pydantic models, OpenAPI docs  
-**Project**: Notes CRUD API  
+### Week 2 — FastAPI Basics & Databases & SQLAlchemy
+**Focus**: REST APIs, Pydantic models, OpenAPI docs , ORM, migrations, PostgreSQL   
+**Project**: Notes CRUD API  & Database integration for Notes API  
 **Video**: [FastAPI Course for Beginners](https://www.youtube.com/watch?v=GN6ICac3OXY)  
-**Checkpoint**: Notes API with documentation
-
-### Week 4 — Databases & SQLAlchemy
-**Focus**: ORM, migrations, PostgreSQL  
-**Project**: Database integration for Notes API  
 **Video**: [FastAPI + SQLAlchemy + PostgreSQL](https://www.youtube.com/watch?v=0sOvCWFmrtA)  
-**Checkpoint**: Notes API with persistent storage
+**Checkpoint**: Notes API with documentation & persistent storage
 
-### Week 5 — Authentication & Deployment
+### Week 3  — Authentication & Deployment
 **Focus**: JWT auth, Docker, background tasks  
 **Project**: Secure, containerized API  
 **Video**: [FastAPI Authentication](https://www.youtube.com/watch?v=H7tRZ1M9Ne4)  
 **Checkpoint**: Deployed API with user auth
 
-### Week 6 — LangChain & LLMs
-**Focus**: RAG, document loaders, vector stores  
-**Project**: Knowledge base assistant  
-**Video**: [LangChain Crash Course](https://www.youtube.com/watch?v=aywZrzNaKjs)  
-**Checkpoint**: RAG prototype with API
-
-### Week 7 — Advanced LangChain
-**Focus**: Agents, tools, memory  
-**Project**: Enhanced AI assistant  
+### Week 4 — LangChain & LLMs
+**Focus**: RAG, document loaders, vector stores, Agents, tools, memory  
+**Project**: Knowledge base assistant
+**Project**: Enhanced AI assistant   
+**Video**: [LangChain Crash Course](https://www.youtube.com/watch?v=aywZrzNaKjs)
 **Video**: [Build RAG System with LangChain](https://www.youtube.com/watch?v=T-D1OfcDW1M)  
-**Checkpoint**: Agent with external tool integration
+**Checkpoint#1**: RAG prototype with API
+**Checkpoint#2**: Agent with external tool integration
+  
+### Week 5 — TensorFlow & ML
+**Focus**: Keras, model training, evaluation, FastAPI integration, Docker    
+**Project**: Image classifier
+**Project**: Model prediction service    
+**Video**: [TensorFlow 2.0 Complete Course](https://www.youtube.com/watch?v=tPYj3fFJGjk)
+**Video**: [Deploy ML Models with FastAPI](https://www.youtube.com/watch?v=C82lT9cWQiA)    
+**Checkpoint#1**: Trained model with notebook
+**Checkpoint#2**: Model serving API
 
-### Week 8 — TensorFlow & ML
-**Focus**: Keras, model training, evaluation  
-**Project**: Image classifier  
-**Video**: [TensorFlow 2.0 Complete Course](https://www.youtube.com/watch?v=tPYj3fFJGjk)  
-**Checkpoint**: Trained model with notebook
-
-### Week 9 — Model Serving
-**Focus**: FastAPI integration, Docker  
-**Project**: Model prediction service  
-**Video**: [Deploy ML Models with FastAPI](https://www.youtube.com/watch?v=C82lT9cWQiA)  
-**Checkpoint**: Model serving API
-
-### Week 10 — Computer Vision
+### Week 6 — Computer Vision (Optional)
 **Focus**: OpenCV, image processing, detection  
 **Project**: Real-time vision pipeline  
 **Video**: [OpenCV Full Tutorial](https://www.youtube.com/watch?v=oXlwWbU8l2o)  
 **Checkpoint**: Vision demo with webcam
 
-### Week 11 — Capstone Project
+### Week 7 — Capstone Project (Optional)
 **Focus**: Full integration, deployment, portfolio  
 **Project**: Choose from full-stack app, LLM assistant, or vision product  
 **Video**: [Full Stack FastAPI and React](https://www.youtube.com/watch?v=OzUzrs8uJl8)  
